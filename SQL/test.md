@@ -1,0 +1,5 @@
+# SQL
+
+    1) SELECT Name FROM AD_Window WHERE ID = 100;
+	2) UPDATE AD_Window SET Name = '--' WHERE ID = 100;
+	3) SELECT * FROM AD_Tab WHERE ID = 100;
