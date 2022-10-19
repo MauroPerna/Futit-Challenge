@@ -4,8 +4,11 @@
    Si por printed se entiende imprimir por consola lo que devuelve en todos los casos es "undefined". Hecha esta salvedad lo que nos arroja el alert es:
 
 	a) 25 porque, 2*2 + 3*3 + 2*2*3 => 4 + 9 + 12 = 25
+
 	b) 81 porque, 4*4 + 5*5 + 2*4*5 => 16 + 25 + 40 = 81
+	
 	c) 2 porque, cada vez que se ejecuta la funcion numLlamadas se incrementa en 1 (numLlamadas++) y la misma lo hace 2 veces (casos a) y b))
+	
 	d) "undefined" porque, las funciones tienen su propio entorno de ejecucion y al estar definida la variable "cuadradoDeA" dentro de la funcion solo existe 
 	   en ella, cuando en el scope global pregunto por la variable la misma no esta definida. 
 
